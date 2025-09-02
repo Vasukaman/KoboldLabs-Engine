@@ -1,0 +1,7 @@
+<KoboldLabs>
+<ModelFile>
+<name> WaterE
+<filePath> assets/models/Food/WaterE.ply
+<fileType> XYZNUVRGBA
+</ModelFile>
+</KoboldLabs>

@@ -1,0 +1,13 @@
+D:/KoboldLabs-Engine/build/CMakeFiles/uninstall.dir
+D:/KoboldLabs-Engine/build/CMakeFiles/UpdateAssimpLibsDebugSymbolsAndDLLs.dir
+D:/KoboldLabs-Engine/build/CMakeFiles/INSTALL.dir
+D:/KoboldLabs-Engine/build/CMakeFiles/ALL_BUILD.dir
+D:/KoboldLabs-Engine/build/CMakeFiles/ZERO_CHECK.dir
+D:/KoboldLabs-Engine/build/contrib/zlib/CMakeFiles/zlibstatic.dir
+D:/KoboldLabs-Engine/build/contrib/zlib/CMakeFiles/INSTALL.dir
+D:/KoboldLabs-Engine/build/contrib/zlib/CMakeFiles/ALL_BUILD.dir
+D:/KoboldLabs-Engine/build/code/CMakeFiles/assimp.dir
+D:/KoboldLabs-Engine/build/code/CMakeFiles/INSTALL.dir
+D:/KoboldLabs-Engine/build/test/CMakeFiles/unit.dir
+D:/KoboldLabs-Engine/build/test/CMakeFiles/INSTALL.dir
+D:/KoboldLabs-Engine/build/test/headercheck/CMakeFiles/INSTALL.dir

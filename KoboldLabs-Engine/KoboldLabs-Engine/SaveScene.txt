@@ -1,0 +1,211 @@
+<KoboldLabs>
+<SceneFile>
+<ObjectLoad-->
+Cube.txt
+wall.txt
+cWall.txt
+floor.txt
+frog.txt
+sideWall.txt
+comp.txt
+screen.txt
+tube.txt
+tubeGlass.txt
+tubeBroken.txt
+shards.txt
+reactor.txt
+table.txt
+light.txt
+Sphere.txt
+slime.txt
+sphere.txt
+skysphere.txt
+screen_quad.txt
+Rope.txt
+Plane_1x1.txt
+Floor_jumpy.txt
+StandartTurretHead.txt
+StandartTurretNeck.txt
+StandartTurretBody.txt
+TripleTurretBody.txt
+TripleTurretNeck.txt
+TripleTurretHead.txt
+ProjectileTurretHead.txt
+ProjectileTurretNeck.txt
+ProjectileTurretBody.txt
+EnemyWheeelBody.txt
+EnemyWheeelWheel.txt
+EnemyWheeelHead.txt
+EnemyShooterBody.txt
+EnemyShooterWheel.txt
+EnemyShooterHead.txt
+Bullet.txt
+BigTowersCastle_e_10.txt
+MainCastle_e_9.txt
+SmallTowersCastle_e_11.txt
+TowersCastle_e_06.txt
+WallsCastle_e_05.txt
+Tree1.txt
+Tree2.txt
+ToolDestroyer.txt
+<--ObjectLoad>
+<Scene-->
+
+<Object-->
+<Name-> Cube
+<Model-> Cube
+<Tags->
+<StaticCollision-> false
+<Position-> 4166 -1 15648
+<Rotation-> 0 0 -0.00905826
+<Scale-> 1 0 9.15816e+08
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> BigTowersCastle_e_10
+<Model-> BigTowersCastle_e_10
+<Tags->
+<StaticCollision-> false
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> MainCastle_e_9
+<Model-> MainCastle_e_9
+<Tags->
+<StaticCollision-> false
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> SmallTowersCastle_e_11
+<Model-> SmallTowersCastle_e_11
+<Tags->
+<StaticCollision-> false
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> TowersCastle_e_06
+<Model-> TowersCastle_e_06
+<Tags->
+<StaticCollision-> false
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> WallsCastle_e_05
+<Model-> WallsCastle_e_05
+<Tags->
+<StaticCollision-> false
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> Tree1
+<Model-> Tree1
+<Tags->
+<StaticCollision-> false
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> Tree2
+<Model-> Tree2
+<Tags->
+<StaticCollision-> false
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<Shading-> true
+<--Object>
+
+<Object-->
+<Name-> SkySphere
+<Model-> SkySphere
+<Tags-> <StaticCollision-> false
+<StaticCollision-> false
+<Position-> -303 2018 -1194
+<Rotation-> 0 180 0
+<Scale-> 1 1.1151e-38 0
+<Visibility-> true
+<Shading-> false
+<Color-> 0 0 0
+<--Object>
+
+
+<Light-->
+<Position-> 25 7 4.7 1
+<Diffuse-> 3.68 4 4 1
+<Specular-> 1 1 1 1
+<Atten-> 0 0.3 2.2e-05 30
+<Direction-> 0 1 0 0
+<Param1-> 0 0 0 0
+<Param2-> 1 0 0 0
+<--Light>
+
+<Light-->
+<Position-> 26 4 6.5 1
+<Diffuse-> 4 3.9 3.6 1
+<Specular-> 1 1 1 1
+<Atten-> 0 0 0 30
+<Direction-> 1 -0.5 1 0
+<Param1-> 2 0 0 0
+<Param2-> 1 0 0 0
+<--Light>
+
+<Light-->
+<Position-> 26 4 6.5 1
+<Diffuse-> 3 2.9 2.7 1
+<Specular-> 1 1 1 1
+<Atten-> 0 0 0 30
+<Direction-> -1 -1 -1 0
+<Param1-> 2 0 0 0
+<Param2-> 1 0 0 0
+<--Light>
+
+<Camera-->
+<Position-> 153 40 55
+<Rotation-> 163 84
+<--Camera>
+
+<Camera-->
+<Position-> 196 40 419
+<Rotation-> 90 0
+<--Camera>
+
+<Camera-->
+<Position-> 300 40 450
+<Rotation-> 90 0
+<--Camera>
+
+<--Scene>
+</SceneFile>
+</KoboldLabs>

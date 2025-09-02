@@ -1,0 +1,7 @@
+<KoboldLabs>
+<ModelFile>
+<name> Floor
+<filePath> assets/models/objects/floor.ply
+<fileType> XYZNUVRGBA
+</ModelFile>
+</KoboldLabs>

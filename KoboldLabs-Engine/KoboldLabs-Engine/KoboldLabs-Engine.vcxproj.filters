@@ -1,0 +1,734 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Basic Shader Manager">
+      <UniqueIdentifier>{520673ef-3672-4d15-bb1b-adab8add79bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{b440479f-ec7e-48cc-9e27-1ee18139ccd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes, etc.">
+      <UniqueIdentifier>{ddd01867-c616-4681-aa72-e7ff5b4b1098}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mouse, Keyboard, FlyCamera">
+      <UniqueIdentifier>{184a305d-7e4d-47ca-bfc6-6c2064ef481a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global things">
+      <UniqueIdentifier>{78450d70-4cd5-41ff-ad02-690efd0d05be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderStuff">
+      <UniqueIdentifier>{9cdea607-512f-4c0a-9b61-159d8362c1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actions">
+      <UniqueIdentifier>{1ffac4ef-8f2c-48ff-b228-9622c4000b43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{d61283d5-1b22-45f7-99ec-5097c2dd69b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{5dd9392c-a386-437d-a02d-09a28b1b4e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{68eda7e0-ff62-4261-9ecf-7418a7b28c28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PhysicsManager">
+      <UniqueIdentifier>{d2bfb15e-1e48-4e01-8243-cdf8576ec6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\LightManager">
+      <UniqueIdentifier>{06139e88-bde6-447a-8a74-9690d3f555ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{fe2e679f-06c7-48ea-a00f-7c5fa644c921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trash">
+      <UniqueIdentifier>{6f2458ba-12b5-4ff6-9ac0-79f56f3f9b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MazeReader">
+      <UniqueIdentifier>{b8a31ce9-4d77-4c82-a0fc-eb18467d3784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PhysicsManager\Phsyics_Stuff_Old">
+      <UniqueIdentifier>{b50e5ed1-0d30-423d-8675-9d288d42b19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands_Lua">
+      <UniqueIdentifier>{d23ee73a-5063-45af-8eac-f931982d2787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands_Lua\Lua_Brain">
+      <UniqueIdentifier>{2f613939-3d6c-49c3-9792-b4eed2545357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commands_Lua\LuaObjectManager">
+      <UniqueIdentifier>{c0d8a6d6-96de-494e-bfdf-ed98255a016a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{e35b39c5-57ec-4005-b5b0-17208ef4b7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers_Tree">
+      <UniqueIdentifier>{d2a543ab-f3a8-4d6f-8501-e509d23f094a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBO">
+      <UniqueIdentifier>{69678280-2a78-48f7-815e-60b12c3316d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\PhysicsManager\Verlet_SoftBody">
+      <UniqueIdentifier>{ff0df87d-314b-440e-8126-413f732bb1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Grid">
+      <UniqueIdentifier>{e9090dde-52b9-4eeb-b783-633cd970ebdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{169b120f-0c43-401d-9681-259576eca719}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\AllInlcudes">
+      <UniqueIdentifier>{a2eb000f-4529-4b58-8aa4-0ecfb122398e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Lights">
+      <UniqueIdentifier>{0479b598-aa46-49da-ac91-afc112109a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{6b0e94db-676b-4282-b724-4c4cd31bdef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GOAP">
+      <UniqueIdentifier>{7c9dd803-6524-438b-aec9-b01d150d3590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenTD">
+      <UniqueIdentifier>{bb67f08d-232b-487c-b9e4-dfaac48196dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{5a6e5396-47f9-411c-9a2c-eb75f1a4b4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{fe4b7849-2310-41ae-89b5-a69d2d7c6772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\AudioHeaders">
+      <UniqueIdentifier>{7c434481-e1ca-41b1-b654-ad884b019682}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="theMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlyFileLoaders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic_Shader_Manager\cShader.cpp">
+      <Filter>Basic Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Basic_Shader_Manager\cShaderManager.cpp">
+      <Filter>Basic Shader Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager\cVAOManager.cpp">
+      <Filter>Meshes, etc.</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicFlyCamera\cBasicFlyCamera.cpp">
+      <Filter>Mouse, Keyboard, FlyCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_keyboard_async.cpp">
+      <Filter>Mouse, Keyboard, FlyCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="sharedThings.cpp">
+      <Filter>Global things</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysics.cpp">
+      <Filter>Engine\PhysicsManager\Phsyics_Stuff_Old</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightManager.cpp">
+      <Filter>Engine\Object\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderCall.cpp">
+      <Filter>RenderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="cLightHelper\cLightHelper.cpp">
+      <Filter>Engine\Object\Lights</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="KLObjectReaderWriter.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="KLSceneReaderWriter.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditorExtra.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneEditor.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsManager.cpp">
+      <Filter>Engine\PhysicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MazeGenerator.cpp">
+      <Filter>MazeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="aPlayerMovement.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gun.hpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C24BitBMPpixel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cBasicTextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureFromBMP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cCommandFactory.cpp">
+      <Filter>Commands_Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="cMoveRelativeTime.cpp">
+      <Filter>Commands_Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="cFollowObject_A.cpp">
+      <Filter>Commands_Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="cCommandGroup.cpp">
+      <Filter>Commands_Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="cLuaBrain.cpp">
+      <Filter>Commands_Lua\Lua_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bPhysics_BroadPhase.cpp">
+      <Filter>Engine\PhysicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cLowPassFilter.cpp">
+      <Filter>Engine\PhysicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaScript.cpp">
+      <Filter>Commands_Lua\Lua_Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Commands_Lua\LuaObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="aTextureWiggler.h">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="cTerrainPathChooser.cpp">
+      <Filter>Containers_Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="cFBO_RGB_depth.cpp">
+      <Filter>FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="cVAOManager_DynamicMesh.cpp">
+      <Filter>Meshes, etc.</Filter>
+    </ClCompile>
+    <ClCompile Include="cSoftBodyVerlet.cpp">
+      <Filter>Engine\PhysicsManager\Verlet_SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="cPhysics_cSoftBody_Verlet.cpp">
+      <Filter>Engine\PhysicsManager\Verlet_SoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="cViperFlagConnector.cpp">
+      <Filter>Engine\PhysicsManager</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderScene.cpp">
+      <Filter>RenderStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRenderer.cpp">
+      <Filter>Engine\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="aScreenTextureSwitch.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RotateInLimits.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cSodtBodyCollisions.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aWavesEffect.h">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="AllInlcludes.hpp">
+      <Filter>Engine\AllInlcudes</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GOAPPlanner.cpp">
+      <Filter>GOAP</Filter>
+    </ClCompile>
+    <ClCompile Include="LabAttackFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveToControlPointAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootAtPlayerAction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aTurretPart.h">
+      <Filter>OpenTD</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>OpenTD</Filter>
+    </ClCompile>
+    <ClCompile Include="aWheelEnemyHead.h">
+      <Filter>Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_stdlib.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioUtils.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Actions\aBaseMazeCharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlyFileLoaders.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic_Shader_Manager\cShaderManager.h">
+      <Filter>Basic Shader Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sMesh.h">
+      <Filter>Meshes, etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="cVAOManager\cVAOManager.h">
+      <Filter>Meshes, etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicFlyCamera\cBasicFlyCamera.h">
+      <Filter>Mouse, Keyboard, FlyCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCommon.h">
+      <Filter>Global things</Filter>
+    </ClInclude>
+    <ClInclude Include="sharedThings.h">
+      <Filter>Global things</Filter>
+    </ClInclude>
+    <ClInclude Include="cPhysics.h">
+      <Filter>Engine\PhysicsManager\Phsyics_Stuff_Old</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightManager.h">
+      <Filter>Engine\Object\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="cLightHelper\cLightHelper.h">
+      <Filter>Engine\Object\Lights</Filter>
+    </ClInclude>
+    <ClInclude Include="sObject.h">
+      <Filter>Meshes, etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneEditor.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="KLFileManager.hpp">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsManager.h">
+      <Filter>Engine\PhysicsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="aRayCastPhysics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MazeGenerator.hpp">
+      <Filter>MazeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="UsableItem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aPlayerItemsController.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="aSizeUpThenDown.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aProjectileMovement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileWeapon.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelsLoader.hpp">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C24BitBMPpixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cBasicTextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureFromBMP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="iCommand.hpp">
+      <Filter>Commands_Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="cCommandGroup.hpp">
+      <Filter>Commands_Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="cCommandFactory.hpp">
+      <Filter>Commands_Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="cMoveRelativeTime.hpp">
+      <Filter>Commands_Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="cFollowObject_A.hpp">
+      <Filter>Commands_Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="cLuaBrain.hpp">
+      <Filter>Commands_Lua\Lua_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="cLowPassFilter.h">
+      <Filter>Engine\PhysicsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaScript.h">
+      <Filter>Commands_Lua\Lua_Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Commands_Lua\LuaObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cTerrainPathChooser.hpp">
+      <Filter>Containers_Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="cFBO_RGB_depth.hpp">
+      <Filter>FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoftBodyVerlet.hpp">
+      <Filter>Engine\PhysicsManager\Verlet_SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="cViperFlagConnector.hpp">
+      <Filter>Engine\PhysicsManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRenderer.h">
+      <Filter>Engine\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.hpp">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="aSoftBodyAction.hpp">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="VerletPhysics.hpp">
+      <Filter>Engine\PhysicsManager\Verlet_SoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Theseus.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="aRotate.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="cSoftBodyCollisions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aRotationWithMinutes.hpp">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="UVWave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glfw.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GOAPAction.h">
+      <Filter>GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToPlayer.h">
+      <Filter>GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="BruteEnemy.h">
+      <Filter>GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="GOAPPlanner.h">
+      <Filter>GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="aPlayerShooting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveToControlPointAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cTurret.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretConfig.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="LabAttackFactory.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootAtPlayerAction.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="StupidPathFinder.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="aTurretBody.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="aTurretHead.hpp">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="aTurretNeckRotate.hpp">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="aTurretNeck.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="TurretNeckAim.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="aTurretPlacer.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="aRotateWheel.h">
+      <Filter>Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="aToolManager.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="player_ui.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="aPlayerFollowingBullet.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="aTurretHeadFollowing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_stdlib.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DashAtPlayerAction .h">
+      <Filter>GOAP</Filter>
+    </ClInclude>
+    <ClInclude Include="aTurretDestroyer.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.hpp">
+      <Filter>Audio\AudioHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioUtils.hpp">
+      <Filter>Audio\AudioHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="aTargetedParticleEmitter .h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SlimeController.h">
+      <Filter>OpenTD</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aAgent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aBaseMazeCharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aCameraSwitch.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aCameraToTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aChangeColorOverTime.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aConnectSoftBodToObj.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aDestroyOnPos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aDrawAim.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aEnemyBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aEnemySpawner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aExhaustTrail.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aExplodeOnRayCollision.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aExplosion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aGrassCollider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aLaunchAction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aLinearProjectileMovement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aLocTriggersLua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aLuaScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aLuaScriptsSerial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aMainCamera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aMinotaur.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aMirrorReflection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aMoveInDirection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aParticleEmitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aPlaneMovement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aPlanePhysics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aPlayerCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aPlayerBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Actions\aPlayerCamera.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\shaders\fragment01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\vertex01.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragment02.glsl" />
+    <None Include="cObjectMovement.lua">
+      <Filter>Commands_Lua\Lua_Brain</Filter>
+    </None>
+    <None Include="LuaRotate2Lerp.lua">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="LuaFollowObj.lua">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="LuaMove2Curve.lua">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="LuaMove2Lerp.lua">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="LuaMeshTransparency.lua">
+      <Filter>Lua</Filter>
+    </None>
+    <None Include="infinite_grid.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="infinite_grid.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="LuaTextureBlendMove.lua">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\depth_vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\particle_fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\particle_vertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="assets\shaders\depth_fragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

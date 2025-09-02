@@ -1,0 +1,25 @@
+<KoboldLabs>
+<SceneFile>
+<ObjectLoad-->
+<--ObjectLoad>
+<Scene-->
+
+<Object-->
+<Name-> name
+<Model-> model Name Mega
+<Position-> 0 0 0
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility-> true
+<--Object>
+
+<Object-->
+<Name-> name2
+<Mesh-> meshName
+<Position-> 10 10 10
+<Rotation-> 0 0 0
+<Scale-> 1 1 1
+<Visibility> true
+<--Object>
+
+<--Scene>
