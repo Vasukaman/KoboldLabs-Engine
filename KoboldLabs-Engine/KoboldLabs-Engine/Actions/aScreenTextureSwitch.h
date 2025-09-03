@@ -1,8 +1,8 @@
 #pragma once
-#include "Action.h"
+
 #include <vector>
 #include <string>
-#include "sObject.h"
+#include "../sObject.h"
 class Object;
 
 class ScreenTextureSwitch : public Action {

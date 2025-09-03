@@ -1,7 +1,7 @@
 ﻿#pragma once
-#include "sObject.h"
+#include "../sObject.h"
 #include <glm/glm.hpp>
-#include "Scene.hpp"
+#include "../Scene.hpp"
 #include <GLFW/glfw3.h>
 #include <cstdlib> 
 

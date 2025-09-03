@@ -51,7 +51,7 @@
 #include "cBasicFlyCamera/cBasicFlyCamera.h" 
 #include "sObject.h"
 #include "Actions/aPlayerCamera.hpp"  // Include the header for aPlayerCamera class
-#include "aPlayerMovement.h"
+#include "Actions/aPlayerMovement.h"
 #include "MazeGenerator.hpp"
 #include "cCommandFactory.hpp"
 #include "cCommandGroup.hpp"
@@ -59,34 +59,34 @@
 #include "LuaScript.h"
 #include "ObjectManager.h"
 //#include "GridRenderer.h"
-#include "aRayCastPhysics.h"
+#include "Actions/aRayCastPhysics.h"
 #include "Actions/aDrawAim.hpp"
-#include "aPlayerItemsController.h"
+#include "Actions/aPlayerItemsController.h"
 #include "ModelsLoader.hpp"
 #include "Actions/aLuaScript.h"
 #include "Actions/aLuaScriptsSerial.h"
 #include "Actions/aLocTriggersLua.h"
 #include "Animator.h"
-#include "aTextureWiggler.h"
+#include "Actions/aTextureWiggler.h"
 #include "Actions/aPlaneMovement.hpp"
 #include "Actions/aPlanePhysics.h"
 #include "cFBO_RGB_depth.hpp"
 #include "Actions/aCameraToTexture.h"
-#include "aScreenTextureSwitch.h"
-#include "aSoftBodyAction.hpp"
+#include "Actions/aScreenTextureSwitch.h"
+#include "Actions/aSoftBodyAction.hpp"
 #include "Actions/aBaseMazeCharacter.h"
 #include "Actions/aMainCamera.hpp"
-#include "aRotate.h"
+#include "Actions/aRotate.h"
 #include "Actions/aConnectSoftBodToObj.hpp"
-#include "aRotationWithMinutes.hpp"
-#include "aWavesEffect.h"
+#include "Actions/aRotationWithMinutes.hpp"
+#include "Actions/aWavesEffect.h"
 #include "Actions/aMirrorReflection.h"
 #include "BruteEnemy.h"
 #include "LabAttackFactory.h"
-#include "aPlayerShooting.h"
+#include "Actions/aPlayerShooting.h"
 #include "Actions/aGrassCollider.h"
-#include "aTurretPlacer.h"
-#include "aToolManager.h"
+#include "Actions/aTurretPlacer.h"
+#include "Actions/aToolManager.h"
 
 
 // Core MGUI headers
@@ -106,7 +106,7 @@
 
 #include <fmod.hpp>
 #include <fmod_errors.h>
-#include "aTurretDestroyer.h"
+#include "Actions/aTurretDestroyer.h"
 
  Scene* currentScene=nullptr;
 

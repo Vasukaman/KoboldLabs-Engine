@@ -11,8 +11,8 @@
 #include "Actions/aExhaustTrail.hpp"
 #include "Actions/aExplodeOnRayCollision.hpp"
 #include "Actions/aChangeColorOverTime.hpp"
-#include "aSizeUpThenDown.hpp"
-#include "aRayCastPhysics.h"
+#include "Actions/aSizeUpThenDown.hpp"
+#include "Actions/aRayCastPhysics.h"
 
 class Gun : public UsableItem
 {

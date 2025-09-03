@@ -1,9 +1,11 @@
 #pragma once
 
-#include "LabAttackFactory.h"
 #include <glm/glm.hpp>
-#include "cTurret.h"
-#include "sObject.h"
+#include "../cTurret.h"
+#include "../sObject.h"
+#include "../Action.h"
+
+#include "../LabAttackFactory.h"
 
 class aTurretPart : public Action
 {

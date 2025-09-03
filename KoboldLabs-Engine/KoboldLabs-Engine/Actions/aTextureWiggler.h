@@ -1,9 +1,9 @@
 #pragma once
 
-#include "Action.h";
+#include "../Action.h";
 #include <glm/vec3.hpp> 
-#include "sObject.h"
-#include "Scene.hpp"
+#include "../sObject.h"
+#include "../Scene.hpp"
 #include <cmath>
 
 class aTextureWiggler : public Action

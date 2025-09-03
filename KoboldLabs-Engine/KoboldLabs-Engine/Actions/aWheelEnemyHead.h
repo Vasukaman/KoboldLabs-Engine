@@ -1,9 +1,8 @@
 #pragma once
-#include "Action.h"
 #include "glm/glm.hpp"
-#include "sObject.h"
-#include "Scene.hpp"
-#include "Actions/aAgent.h"
+#include "../sObject.h"
+#include "../Scene.hpp"
+#include "aAgent.h"
 
 class aWheelEnemyHead : public Action {
 private:

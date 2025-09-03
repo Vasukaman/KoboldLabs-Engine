@@ -1,12 +1,12 @@
 #pragma once
-#ifndef LAB_ATTACK_FACTORY_HPPm
+#ifndef LAB_ATTACK_FACTORY_HPP
 #define LAB_ATTACK_FACTORY_HPP
 
 #include <glm/vec3.hpp>
 #include <vector>
 #include "Scene.hpp"
 #include "sObject.h"
-#include "aProjectileMovement.hpp"
+#include "Actions/aProjectileMovement.hpp"
 #include "MazeGenerator.hpp"
 #include "Actions/aGrassCollider.h"
 #include "TurretConfig.h"

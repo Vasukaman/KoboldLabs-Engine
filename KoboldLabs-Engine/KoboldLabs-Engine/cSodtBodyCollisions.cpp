@@ -1,5 +1,6 @@
 #include "cSoftBodyCollisions.h"
-#include "aSoftBodyAction.hpp"
+#include "Actions/aSoftBodyAction.hpp"
+
 glm::vec3 SoftBodyCollision::ProcessCollisionToOtherSoftBodies(glm::vec3 particlePos)
 {
     std::lock_guard<std::mutex> lock(m_CollisionMutex);

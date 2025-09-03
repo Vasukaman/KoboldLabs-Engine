@@ -1,10 +1,10 @@
 #pragma once
 #include "sObject.h"
 #include "Action.h"
-#include "LabAttackFactory.h"
+#include "../LabAttackFactory.h"
 #include "aProjectileMovement.hpp"
-#include "Actions/aParticleEmitter.h"
-#include "AudioManager.hpp"
+#include "aParticleEmitter.h"
+#include "../AudioManager.hpp"
 
 class aBullet : public Action {
 private:

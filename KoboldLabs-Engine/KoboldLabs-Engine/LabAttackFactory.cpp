@@ -1,21 +1,21 @@
 #pragma once;
 #include "LabAttackFactory.h"
 
-#include "aRotate.h"
+#include "Actions/aRotate.h"
 #include "BruteEnemy.h"
 #include "Actions/aBullet.h"
-#include "aTurretBody.h"
-#include "aTurretNeckRotate.hpp"
+#include "Actions/aTurretBody.h"
+#include "Actions/aTurretNeckRotate.hpp"
 #include "TurretNeckAim.h"
-#include "aTurretHead.hpp"
+#include "Actions/aTurretHead.hpp"
 #include "cTurret.h"
 #include "Actions/aEnemyBullet.h"
 #include "Actions/aPlayerBullet.h"
-#include "aPlayerFollowingBullet.h"
-#include "aRotateWheel.h"
-#include "aWheelEnemyHead.h"
+#include "Actions/aPlayerFollowingBullet.h"
+#include "Actions/aRotateWheel.h"
+#include "Actions/aWheelEnemyHead.h"
 #include "Actions/aParticleEmitter.h"
-#include "aTurretHeadFollowing.h"
+#include "Actions/aTurretHeadFollowing.h"
 
 // Constructor
 LabAttackFactory::LabAttackFactory(int creepPoolSize, int avoiderPoolSize, int shooterPoolSize, int wandererPoolSize,

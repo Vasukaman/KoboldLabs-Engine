@@ -173,7 +173,7 @@
     <ClCompile Include="MazeGenerator.cpp">
       <Filter>MazeReader</Filter>
     </ClCompile>
-    <ClCompile Include="aPlayerMovement.h">
+    <ClCompile Include="Actions\aPlayerMovement.h">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="Gun.hpp">
@@ -218,7 +218,7 @@
     <ClCompile Include="ObjectManager.cpp">
       <Filter>Commands_Lua\LuaObjectManager</Filter>
     </ClCompile>
-    <ClCompile Include="aTextureWiggler.h">
+    <ClCompile Include="Actions\aTextureWiggler.h">
       <Filter>Actions</Filter>
     </ClCompile>
     <ClCompile Include="cTerrainPathChooser.cpp">
@@ -245,7 +245,7 @@
     <ClCompile Include="GridRenderer.cpp">
       <Filter>Engine\Grid</Filter>
     </ClCompile>
-    <ClCompile Include="aScreenTextureSwitch.h">
+    <ClCompile Include="Actions\aScreenTextureSwitch.h">
       <Filter>Header Files</Filter>
     </ClCompile>
     <ClCompile Include="RotateInLimits.h">
@@ -254,7 +254,7 @@
     <ClCompile Include="cSodtBodyCollisions.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="aWavesEffect.h">
+    <ClCompile Include="Actions\aWavesEffect.h">
       <Filter>Actions</Filter>
     </ClCompile>
     <ClCompile Include="AllInlcludes.hpp">
@@ -293,13 +293,13 @@
     <ClCompile Include="ShootAtPlayerAction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="aTurretPart.h">
+    <ClCompile Include="Actions\aTurretPart.h">
       <Filter>OpenTD</Filter>
     </ClCompile>
     <ClCompile Include="Turret.cpp">
       <Filter>OpenTD</Filter>
     </ClCompile>
-    <ClCompile Include="aWheelEnemyHead.h">
+    <ClCompile Include="Actions\aWheelEnemyHead.h">
       <Filter>Actions</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui_stdlib.cpp">
@@ -367,7 +367,7 @@
     <ClInclude Include="PhysicsManager.h">
       <Filter>Engine\PhysicsManager</Filter>
     </ClInclude>
-    <ClInclude Include="aRayCastPhysics.h">
+    <ClInclude Include="Actions\aRayCastPhysics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MazeGenerator.hpp">
@@ -379,13 +379,13 @@
     <ClInclude Include="Laser.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="aPlayerItemsController.h">
+    <ClInclude Include="Actions\aPlayerItemsController.h">
       <Filter>Actions</Filter>
     </ClInclude>
-    <ClInclude Include="aSizeUpThenDown.hpp">
+    <ClInclude Include="Actions\aSizeUpThenDown.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="aProjectileMovement.hpp">
+    <ClInclude Include="Actions\aProjectileMovement.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ProjectileWeapon.hpp">
@@ -454,7 +454,7 @@
     <ClInclude Include="Camera.hpp">
       <Filter>Engine\Camera</Filter>
     </ClInclude>
-    <ClInclude Include="aSoftBodyAction.hpp">
+    <ClInclude Include="Actions\aSoftBodyAction.hpp">
       <Filter>Actions</Filter>
     </ClInclude>
     <ClInclude Include="VerletPhysics.hpp">
@@ -463,13 +463,13 @@
     <ClInclude Include="Theseus.h">
       <Filter>Actions</Filter>
     </ClInclude>
-    <ClInclude Include="aRotate.h">
+    <ClInclude Include="Actions\aRotate.h">
       <Filter>Actions</Filter>
     </ClInclude>
     <ClInclude Include="cSoftBodyCollisions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="aRotationWithMinutes.hpp">
+    <ClInclude Include="Actions\aRotationWithMinutes.hpp">
       <Filter>Actions</Filter>
     </ClInclude>
     <ClInclude Include="UVWave.h">
@@ -514,7 +514,7 @@
     <ClInclude Include="GOAPPlanner.h">
       <Filter>GOAP</Filter>
     </ClInclude>
-    <ClInclude Include="aPlayerShooting.h">
+    <ClInclude Include="Actions\aPlayerShooting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MoveToControlPointAction.h">
@@ -535,28 +535,28 @@
     <ClInclude Include="StupidPathFinder.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
-    <ClInclude Include="aTurretBody.h">
+    <ClInclude Include="Actions\aTurretBody.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
-    <ClInclude Include="aTurretHead.hpp">
+    <ClInclude Include="Actions\aTurretHead.hpp">
       <Filter>OpenTD</Filter>
     </ClInclude>
-    <ClInclude Include="aTurretNeckRotate.hpp">
+    <ClInclude Include="Actions\aTurretNeckRotate.hpp">
       <Filter>OpenTD</Filter>
     </ClInclude>
-    <ClInclude Include="aTurretNeck.h">
+    <ClInclude Include="Actions\aTurretNeck.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
     <ClInclude Include="TurretNeckAim.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
-    <ClInclude Include="aTurretPlacer.h">
+    <ClInclude Include="Actions\aTurretPlacer.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
-    <ClInclude Include="aRotateWheel.h">
+    <ClInclude Include="Actions\aRotateWheel.h">
       <Filter>Actions</Filter>
     </ClInclude>
-    <ClInclude Include="aToolManager.h">
+    <ClInclude Include="Actions\aToolManager.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
     <ClInclude Include="player_ui.h">
@@ -565,10 +565,10 @@
     <ClInclude Include="player.h">
       <Filter>Header Files\Player</Filter>
     </ClInclude>
-    <ClInclude Include="aPlayerFollowingBullet.h">
+    <ClInclude Include="Actions\aPlayerFollowingBullet.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
-    <ClInclude Include="aTurretHeadFollowing.h">
+    <ClInclude Include="Actions\aTurretHeadFollowing.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="imgui\imgui_stdlib.h">
@@ -577,7 +577,7 @@
     <ClInclude Include="DashAtPlayerAction .h">
       <Filter>GOAP</Filter>
     </ClInclude>
-    <ClInclude Include="aTurretDestroyer.h">
+    <ClInclude Include="Actions\aTurretDestroyer.h">
       <Filter>OpenTD</Filter>
     </ClInclude>
     <ClInclude Include="AudioManager.hpp">
@@ -586,7 +586,7 @@
     <ClInclude Include="AudioUtils.hpp">
       <Filter>Audio\AudioHeaders</Filter>
     </ClInclude>
-    <ClInclude Include="aTargetedParticleEmitter .h">
+    <ClInclude Include="Actions\aTargetedParticleEmitter .h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SlimeController.h">

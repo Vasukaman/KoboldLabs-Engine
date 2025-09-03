@@ -1,13 +1,13 @@
 #pragma once
 #define NOMINMAX  // Disable Windows min/max macros
 #include <windows.h>  // If you need Windows headers
-#include "Action.h"
-#include "sObject.h"
+#include "../Action.h"
+#include "../sObject.h"
 #include <glm/vec3.hpp> 
-#include "cBasicFlyCamera/cBasicFlyCamera.h"
-#include "Scene.hpp"
+#include "../cBasicFlyCamera/cBasicFlyCamera.h"
+#include "../Scene.hpp"
 #include <glm/glm.hpp>
-#include "MazeGenerator.hpp"
+#include "../MazeGenerator.hpp"
 #include <algorithm> 
 
 
