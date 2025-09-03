@@ -1,160 +1,73 @@
-# 3D Scene Editor Controls
+# 🐺 KoboldLabs Engine
 
-This scene editor provides a keyboard-controlled interface to adjust the **Position**, **Rotation**, and **Scale** of objects in a 3D scene. Toggle between different transformation modes, use the arrow keys for adjustments, and save your scene state.
+An OpenGL-based 3D game engine featuring a custom physics system, an object-action architecture, and Lua scripting. Developed as a final project for my studies at **Fanshawe College**.
 
-## Controls Overview
+-----
 
-### Mode Selection
+## About The Project
 
-- **P**: Select the next object in the scene.
-- **U**: Switch to **Position** mode.
-- **I**: Switch to **Rotation** mode.
-- **O**: Switch to **Scale** mode (only affects x-axis).
+KoboldLabs Engine is a 3D game engine built from the ground up in C++ and OpenGL. It was developed to demonstrate a comprehensive understanding of modern engine architecture, rendering techniques, and physics simulation.
 
-### Transformation Controls
+The project's core is its **Object-Action architecture**, a flexible system similar to component-based designs that allows for rapid development and extension. It's built to be robust, easy to use, and a powerful tool for creating interactive 3D experiences.
 
-The function of the arrow keys changes based on the selected mode.
+-----
 
-#### Position Mode (Press **U**)
+## ✨ Core Features
 
-Use the arrow keys to move the object in the 3D space.
+### Rendering Engine
 
-- **↑ (Up Arrow)**: Move forward along **z-axis**.
-- **↓ (Down Arrow)**: Move backward along **z-axis**.
-- **→ (Right Arrow)**: Move right along **x-axis**.
-- **← (Left Arrow)**: Move left along **x-axis**.
-- **Control + ↑ (Up Arrow)**: Move upward along **y-axis**.
-- **Control + ↓ (Down Arrow)**: Move downward along **y-axis**.
+  * **Physically-Based Rendering (PBR)**: Implements an industry-standard PBR shading model for realistic materials, supporting ambient occlusion, roughness, metalness, and normal maps.
+  * **Shell Texturing**: An efficient technique for rendering dense, dynamic grass with layered shells, creating depth and motion with minimal performance overhead.
+  * **GPU-Instanced Particles**: A high-performance particle system that updates the GPU buffer directly, allowing for thousands of dynamic particles with different behaviors and settings.
 
-#### Rotation Mode (Press **I**)
+### Physics System
 
-Use the arrow keys to rotate the object.
+  * **Hybrid Collision Detection**: A custom physics engine that uses **AABB** for efficient broad-phase filtering and precise **mesh-based collision** for narrow-phase resolution. This optimizes performance while ensuring accurate physical interactions.
+  * **Deformable Soft-Body Physics**: A custom soft-body simulation using Verlet integration. It supports real-time interaction between soft bodies and rigid colliders, enabling realistic elasticity and deformation.
 
-- **↑ (Up Arrow)**: Rotate upward around **x-axis**.
-- **↓ (Down Arrow)**: Rotate downward around **x-axis**.
-- **→ (Right Arrow)**: Rotate clockwise around **z-axis**.
-- **← (Left Arrow)**: Rotate counterclockwise around **z-axis**.
-- **Control + ↑ (Up Arrow)**: Rotate clockwise around **y-axis**.
-- **Control + ↓ (Down Arrow)**: Rotate counterclockwise around **y-axis**.
+### Architecture & Scripting
 
-#### Scale Mode (Press **O**)
+  * **🧩 Object-Action Architecture**: A robust, easy-to-use system inspired by industry standards, facilitating rapid development and feature extension.
+  * **Lua Scripting**: Integrated **Lua** for scripting game logic and keyframe animations, allowing for quick iteration without needing to recompile the C++ source.
+  * **🎧 FMOD Audio Integration**: Leverages the powerful **FMOD** library for advanced audio processing, sound effects, and spatial sound.
+  * **Custom Scene Management**: Features a custom save/load system using a lightweight, human-readable `.txt` format for streamlined scene data management.
 
-Use the arrow keys to scale the object **only on the x-axis**.
+-----
 
-- **→ (Right Arrow)**: Increase x-axis scale.
-- **← (Left Arrow)**: Decrease x-axis scale.
+## 🚀 Getting Started
 
-## Saving the Scene
+To get a local copy up and running, follow these steps.
 
-To save the scene, use the `SaveScene(std::string name)` function. This will store the current states of each object in the scene, including:
+### Prerequisites
 
-- **Model File Path**
-- **Position**
-- **Rotation**
-- **Scale**
+  * **Visual Studio 2019** or newer
+  * **FMOD Core API**: Ensure the FMOD library is installed and linked correctly.
 
-The scene state will be saved in an XML-like format, making it easy to reload objects with their latest transformations.
+### Installation & Building
 
----
+1.  Clone the repository:
+    ```sh
+    git clone https://github.com/Vasukaman/KoboldLabs-Engine.git
+    ```
+2.  Open the `KoboldLabs-Engine.sln` file in Visual Studio.
+3.  Set the build configuration to **Release** and the platform to **x64**.
+4.  Build the solution (F7 or `Build > Build Solution`). The executable will be generated in the `x64/Release` folder.
 
-### Example Save File Structure
+-----
 
-An example of how scene information might appear in the save file:
+## 🛠️ Built With
 
-```xml
-<Scene>
-    <Object>
-        <ModelFilePath> assets/models/tree.ply </ModelFilePath>
-        <Position x="0.0" y="5.0" z="10.0" />
-        <Rotation x="0.0" y="45.0" z="0.0" />
-        <Scale x="1.0" y="1.0" z="1.0" />
-    </Object>
-    <!-- Additional objects here -->
-</Scene>
-```
+  * **C++**: Core engine language
+  * **OpenGL**: Graphics rendering API
+  * **GLAD**: OpenGL Loading Library
+  * **GLFW**: Windowing and input management
+  * **Assimp**: 3D model and asset loading
+  * **Lua**: Scripting language for game logic
+  * **FMOD**: Audio engine for sound processing
 
-# Light Editing in Scene Editor
+-----
 
-This document provides instructions on how to use the light editing functionality within the scene editor. The controls allow users to modify various properties of the lights in the scene dynamically.
+## Acknowledgments
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Controls](#controls)
-- [Light Properties](#light-properties)
-- [Tips and Tricks](#tips-and-tricks)
-
-## Overview
-
-In the scene editor, users can edit different light properties such as position, diffuse color, specular color, attenuation, direction, and other parameters. The editing mode can be toggled and adjusted using keyboard shortcuts.
-
-## Controls
-
-1. **Toggle Light Editing Mode:**
-
-   - Press **`P`** to pick the next light in the scene.
-
-2. **Select Light Property to Edit:**
-
-   - Press **`Z`** to edit **Position**.
-   - Press **`X`** to edit **Diffuse Color**.
-   - Press **`C`** to edit **Specular Color**.
-   - Press **`V`** to edit **Attenuation**.
-   - Press **`B`** to edit **Param1** (Inner and Outer angles).
-   - Press **`N`** to edit **Param2** (Toggle on/off).
-
-3. **Edit Light Properties:**
-
-   - **Position**: Use the arrow keys to move the light.
-
-     - Up/Down: Move along the Z-axis.
-     - Left/Right: Move along the X-axis.
-     - Hold **Control** to move along the Y-axis.
-
-   - **Diffuse Color**: Adjust the Y and Z channels using the Up/Down arrow keys.
-
-     - Hold **Control** to adjust the Z channel (color component).
-
-   - **Specular Color**: Adjust the power (W channel) using Up/Down keys.
-
-     - Use Left/Right to adjust the X channel (color component) while holding **Control**.
-
-   - **Attenuation**:
-
-     - Hold **Alt** while pressing:
-       - **UP**: Decrease linear attenuation (Y).
-       - **DOWN**: Increase linear attenuation (Y).
-       - **RIGHT**: Decrease quadratic attenuation (Z).
-       - **LEFT**: Increase quadratic attenuation (Z).
-
-   - **Param1**:
-
-     - Adjust the inner angle (Y) using Up/Down keys.
-     - Use Left/Right to adjust the outer angle (Z) while holding **Control**.
-
-   - **Param2**:
-     - Up arrow key to turn on the light.
-     - Down arrow key to turn off the light.
-
-## Light Properties
-
-- **Position**: The position of the light in 3D space defined by `glm::vec4 position`.
-- **Diffuse Color**: The diffuse color of the light, which affects the color seen on surfaces, defined by `glm::vec4 diffuse`.
-- **Specular Color**: The color and power of highlights on surfaces defined by `glm::vec4 specular`.
-- **Attenuation**: Controls how the light intensity diminishes over distance, defined by `glm::vec4 atten`.
-  - X: Constant attenuation
-  - Y: Linear attenuation
-  - Z: Quadratic attenuation
-- **Direction**: The direction of the light for spot and directional lights, defined by `glm::vec4 direction`.
-- **Param1**: Contains parameters such as light type and angles for spotlights, defined by `glm::vec4 param1`.
-- **Param2**: Used for toggling the light on or off, defined by `glm::vec4 param2`.
-
-## Tips and Tricks
-
-- Ensure the selected light is visible in the scene to see the effects of your changes.
-- Use control and shift modifiers for more precise adjustments.
-- Experiment with different combinations of adjustments to get the desired lighting effect in your scene.
-
-## Conclusion
-
-This functionality allows for a rich and interactive light editing experience in your scene editor, enabling fine-tuning of light properties on the fly. Happy editing!
+  * A special thanks to the professors and curriculum at **Fanshawe College** for providing the foundational knowledge required for this project.
+  * HUGE THANKS to Acerola for making the best videos about GPU programming!
