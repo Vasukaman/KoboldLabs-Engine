@@ -1,5 +1,6 @@
-# 🐺 KoboldLabs Engine
-<img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/88344031-0817-4624-afb4-a78774e32b76" />
+<img width="930" height="540" alt="image" src="https://github.com/user-attachments/assets/8f71d920-bdf1-48fe-a951-200193cecda3" /># 🐺 KoboldLabs Engine
+<img width="930" height="540" alt="image" src="https://github.com/user-attachments/assets/c255b3f2-8d9b-489f-88b6-bf780ceea290" />
+
 
 An OpenGL-based 3D game engine featuring a custom physics system, an object-action architecture, and Lua scripting. Developed as a final project for my studies at **Fanshawe College**.
 
@@ -10,13 +11,13 @@ An OpenGL-based 3D game engine featuring a custom physics system, an object-acti
 KoboldLabs Engine is a 3D game engine built from the ground up in C++ and OpenGL. It was developed to demonstrate a comprehensive understanding of modern engine architecture, rendering techniques, and physics simulation.
 
 The project's core is its **Object-Action architecture**, a flexible system similar to component-based designs that allows for rapid development and extension. It's built to be robust, easy to use, and a powerful tool for creating interactive 3D experiences.
-
-<img width="794" height="421" alt="image" src="https://github.com/user-attachments/assets/419eb9c1-e965-48cf-971f-b1602156e78c" />
+<img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/88344031-0817-4624-afb4-a78774e32b76" />
 
 -----
 
 ## ✨ Core Features
 
+<img width="794" height="421" alt="image" src="https://github.com/user-attachments/assets/419eb9c1-e965-48cf-971f-b1602156e78c" />
 ### Rendering Engine
 
   * **Physically-Based Rendering (PBR)**: Implements an industry-standard PBR shading model for realistic materials, supporting ambient occlusion, roughness, metalness, and normal maps.
