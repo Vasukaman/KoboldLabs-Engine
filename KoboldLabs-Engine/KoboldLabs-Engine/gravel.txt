@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> gravel
-<filePath> assets/models/Race_track/gravel_xyznuvrbga.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

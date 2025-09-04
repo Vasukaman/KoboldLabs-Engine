@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> OtherWall
-<filePath> assets/models/Wall.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

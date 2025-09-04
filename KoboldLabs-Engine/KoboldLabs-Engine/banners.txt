@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> banners
-<filePath> assets/models/Race_track/banners_xyznuvrbga.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

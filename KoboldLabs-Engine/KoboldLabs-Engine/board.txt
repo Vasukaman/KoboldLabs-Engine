@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> board
-<filePath> assets/models/Class_Room/board_xyznuvrbga.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

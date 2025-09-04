@@ -4,6 +4,8 @@
 #include <iostream>
 #include "KLFileManager.hpp"
 
+const std::string basePath = "assets/models/";
+
 void PrintModelFileError(int errorCode, bool isRead)
 {
     if (isRead)
@@ -12,8 +14,9 @@ void PrintModelFileError(int errorCode, bool isRead)
         std::cout << "ModelFile writing ERROR #" << errorCode << std::endl;
 }
 
-sModelDrawInfo KLFileManager::ReadModelFile(const std::string& filePath)
+sModelDrawInfo KLFileManager::ReadModelFile(std::string& filePath)
 {
+    filePath = basePath + filePath;
     std::ifstream modelFile(filePath);
     std::string token;
 
@@ -90,6 +93,8 @@ void AddLineToModelFile(std::ofstream& myfile, const std::string& line)
 
 void KLFileManager::WriteModelFile(const sModelDrawInfo* model, std::string fileName, std::string type)
 {
+    fileName = basePath + fileName;
+
     // Open the file in truncation mode to overwrite the previous content
     std::ofstream myfile(fileName, std::ios::trunc);
 

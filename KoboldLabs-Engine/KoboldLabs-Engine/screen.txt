@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> Screen
-<filePath> assets/models/objects/screen.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

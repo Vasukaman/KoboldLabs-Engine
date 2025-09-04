@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> Floor
-<filePath> assets/models/Room/Floors_xyz_n_uv_rgba.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

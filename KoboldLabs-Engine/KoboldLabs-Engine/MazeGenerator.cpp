@@ -7,7 +7,7 @@
 #include <random>
 #include "Actions/aMinotaur.h"
 #include "Theseus.h"
-#include "aSoftBodyAction.hpp"
+#include "Actions/aSoftBodyAction.hpp"
 #include "BruteEnemy.h"
 #include "Actions/aEnemySpawner.h"
 #include "LabAttackFactory.h"

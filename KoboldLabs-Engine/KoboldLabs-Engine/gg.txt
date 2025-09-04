@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> MinotaurE
-<filePath> assets/models/Chars/MinoE.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> baloons
-<filePath> assets/models/Race_track/baloons_xyznuvrbga.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

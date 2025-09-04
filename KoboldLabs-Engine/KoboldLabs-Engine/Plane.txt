@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> Plane
-<filePath> assets/models/UFO.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

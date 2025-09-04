@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> etagere
-<filePath> assets/models/Class_Room/etagere_xyznuvrbga.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

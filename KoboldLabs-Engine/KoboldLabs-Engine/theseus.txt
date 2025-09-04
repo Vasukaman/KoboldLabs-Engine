@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> TheseusE
-<filePath> assets/models/Chars/TheseusE.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>

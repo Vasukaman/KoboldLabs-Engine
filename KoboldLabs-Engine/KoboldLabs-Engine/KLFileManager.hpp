@@ -10,7 +10,7 @@
 class KLFileManager
 {
 public:
-	sModelDrawInfo ReadModelFile(const std::string& filePath);
+	sModelDrawInfo ReadModelFile(std::string& filePath);
 	void WriteModelFile(const sModelDrawInfo* model, std::string fileName, std::string type );
 
 	Scene* ReadSceneFile(std::string filePath);

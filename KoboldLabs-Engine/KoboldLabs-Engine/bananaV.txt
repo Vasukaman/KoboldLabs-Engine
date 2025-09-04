@@ -1,7 +1,0 @@
-<KoboldLabs>
-<ModelFile>
-<name> FoodV
-<filePath> assets/models/Food/BananaV.ply
-<fileType> XYZNUVRGBA
-</ModelFile>
-</KoboldLabs>
