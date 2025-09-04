@@ -1,4 +1,4 @@
-<img width="930" height="540" alt="image" src="https://github.com/user-attachments/assets/8f71d920-bdf1-48fe-a951-200193cecda3" /># 🐺 KoboldLabs Engine
+# 🐺 KoboldLabs Engine
 <img width="930" height="540" alt="image" src="https://github.com/user-attachments/assets/c255b3f2-8d9b-489f-88b6-bf780ceea290" />
 
 
