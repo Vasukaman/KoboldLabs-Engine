@@ -5,6 +5,7 @@
 
 [SOFTBODY + THREADING VIDEO SHOWCASE](https://www.youtube.com/watch?v=FvAc_5-wjVY)
 
+[ITCH.IO](https://vasuka.itch.io/koboldlabs-engine)
 
 An OpenGL-based 3D game engine featuring a custom physics system, an object-action architecture, and Lua scripting. Developed as a final project for my studies at **Fanshawe College**.
 
@@ -36,9 +37,9 @@ The project's core is its **Object-Action architecture**, a flexible system simi
 
 ### Architecture & Scripting
 
-  * **🧩 Object-Action Architecture**: A robust, easy-to-use system inspired by industry standards, facilitating rapid development and feature extension.
+  * **Object-Component Architecture**: A robust, easy-to-use system inspired by industry standards, facilitating rapid development and feature extension.
   * **Lua Scripting**: Integrated **Lua** for scripting game logic and keyframe animations, allowing for quick iteration without needing to recompile the C++ source.
-  * **🎧 FMOD Audio Integration**: Leverages the powerful **FMOD** library for advanced audio processing, sound effects, and spatial sound.
+  * **FMOD Audio Integration**: Leverages the powerful **FMOD** library for advanced audio processing, sound effects, and spatial sound.
   * **Custom Scene Management**: Features a custom save/load system using a lightweight, human-readable `.txt` format for streamlined scene data management.
 
 
@@ -53,17 +54,6 @@ To get a local copy up and running, follow these steps.
   * **Visual Studio 2019** or newer
   * **FMOD Core API**: Ensure the FMOD library is installed and linked correctly.
 
-### Installation & Building
-
-1.  Clone the repository:
-    ```sh
-    git clone https://github.com/Vasukaman/KoboldLabs-Engine.git
-    ```
-2.  Open the `KoboldLabs-Engine.sln` file in Visual Studio.
-3.  Set the build configuration to **Release** and the platform to **x64**.
-4.  Build the solution (F7 or `Build > Build Solution`). The executable will be generated in the `x64/Release` folder.
-
------
 
 ##  Built With
 
