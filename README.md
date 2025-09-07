@@ -1,6 +1,9 @@
 # 🐺 KoboldLabs Engine
 <img width="930" height="540" alt="image" src="https://github.com/user-attachments/assets/c255b3f2-8d9b-489f-88b6-bf780ceea290" />
 
+[VIDEO SHOWCASE](https://www.youtube.com/embed/NRvo9QyOdjM?si=NG948dFNPzobmVjQ)
+[SOFTBODY + THREADING VIDEO SHOWCASE](https://www.youtube.com/watch?v=FvAc_5-wjVY)
+
 
 An OpenGL-based 3D game engine featuring a custom physics system, an object-action architecture, and Lua scripting. Developed as a final project for my studies at **Fanshawe College**.
 
@@ -37,7 +40,6 @@ The project's core is its **Object-Action architecture**, a flexible system simi
   * **Custom Scene Management**: Features a custom save/load system using a lightweight, human-readable `.txt` format for streamlined scene data management.
 
 
-[VIDEO SHOWCASE](https://www.youtube.com/embed/NRvo9QyOdjM?si=NG948dFNPzobmVjQ)
 -----
 
 ## 🚀 Getting Started
