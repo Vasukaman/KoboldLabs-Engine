@@ -36,7 +36,8 @@ The project's core is its **Object-Action architecture**, a flexible system simi
   * **🎧 FMOD Audio Integration**: Leverages the powerful **FMOD** library for advanced audio processing, sound effects, and spatial sound.
   * **Custom Scene Management**: Features a custom save/load system using a lightweight, human-readable `.txt` format for streamlined scene data management.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NRvo9QyOdjM?si=NG948dFNPzobmVjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[VIDEO SHOWCASE](https://www.youtube.com/embed/NRvo9QyOdjM?si=NG948dFNPzobmVjQ)
 -----
 
 ## 🚀 Getting Started
