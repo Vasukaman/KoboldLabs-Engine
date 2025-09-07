@@ -21,6 +21,7 @@ The project's core is its **Object-Action architecture**, a flexible system simi
 ## ✨ Core Features
 
 <img width="794" height="421" alt="image" src="https://github.com/user-attachments/assets/419eb9c1-e965-48cf-971f-b1602156e78c" />
+
 ### Rendering Engine
 
   * **Physically-Based Rendering (PBR)**: Implements an industry-standard PBR shading model for realistic materials, supporting ambient occlusion, roughness, metalness, and normal maps.
