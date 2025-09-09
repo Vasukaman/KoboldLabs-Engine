@@ -1,5 +1,5 @@
 # KoboldLabs Engine
-<img width="930" height="540" alt="image" src="https://github.com/user-attachments/assets/c255b3f2-8d9b-489f-88b6-bf780ceea290" />
+<img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/88344031-0817-4624-afb4-a78774e32b76" />
 
 [VIDEO SHOWCASE](https://www.youtube.com/embed/NRvo9QyOdjM?si=NG948dFNPzobmVjQ)
 
@@ -9,8 +9,7 @@
 
 An OpenGL-based 3D game engine featuring a custom physics system, an object-action architecture, and Lua scripting. Developed as a final project for my studies at **Fanshawe College**.
 
-![Kobold_Labs_Game_Engine_Showcase (2)](https://github.com/user-attachments/assets/e8237784-b8bf-4447-a40f-391c71958262)
-
+![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/9ac91d60-6860-4c07-b26a-61ee23154808)
 
 -----
 
@@ -19,23 +18,22 @@ An OpenGL-based 3D game engine featuring a custom physics system, an object-acti
 KoboldLabs Engine is a 3D game engine built from the ground up in C++ and OpenGL. It was developed to demonstrate a comprehensive understanding of modern engine architecture, rendering techniques, and physics simulation.
 
 The project's core is its **Object-Action architecture**, a flexible system similar to component-based designs that allows for rapid development and extension. It's built to be robust, easy to use, and a powerful tool for creating interactive 3D experiences.
-<img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/88344031-0817-4624-afb4-a78774e32b76" />
+
+![Kobold_Labs_Game_Engine_Showcase (2)](https://github.com/user-attachments/assets/e8237784-b8bf-4447-a40f-391c71958262)
 
 -----
 
 ## Core Features
 
-<img width="794" height="421" alt="image" src="https://github.com/user-attachments/assets/419eb9c1-e965-48cf-971f-b1602156e78c" />
-
 ### Rendering Engine
 
   * **Physically-Based Rendering (PBR)**: Implements an industry-standard PBR shading model for realistic materials, supporting ambient occlusion, roughness, metalness, and normal maps.
   * **Shell Texturing**: An efficient technique for rendering dense, dynamic grass with layered shells, creating depth and motion with minimal performance overhead.
+ 
   ![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/a6b042a1-1815-41e7-b71a-197c62c2d670)
 
   * **GPU-Instanced Particles**: A high-performance particle system that updates the GPU buffer directly, allowing for thousands of dynamic particles with different behaviors and settings.
 
-![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/9ac91d60-6860-4c07-b26a-61ee23154808)
 ![Kobold_Labs_Game_Engine_Showcase (1)](https://github.com/user-attachments/assets/f2ba1a12-365a-4134-ae5a-a381a14fe9af)
 
 ### Physics System
