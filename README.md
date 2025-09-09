@@ -52,16 +52,6 @@ The project's core is its **Object-Action architecture**, a flexible system simi
 
 -----
 
-## Getting Started
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-  * **Visual Studio 2019** or newer
-  * **FMOD Core API**: Ensure the FMOD library is installed and linked correctly.
-
-
 ##  Built With
 
   * **C++**: Core engine language
