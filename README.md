@@ -18,6 +18,10 @@ KoboldLabs Engine is a 3D game engine built from the ground up in C++ and OpenGL
 The project's core is its **Object-Action architecture**, a flexible system similar to component-based designs that allows for rapid development and extension. It's built to be robust, easy to use, and a powerful tool for creating interactive 3D experiences.
 <img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/88344031-0817-4624-afb4-a78774e32b76" />
 
+![PBR WORKING!!!](https://github.com/user-attachments/assets/18bc0667-276f-403c-be01-bc513e0cc015)
+
+![Grass Shells Move indep long small](https://github.com/user-attachments/assets/097aa5e0-fdbe-42a4-813a-a61c9ecb9ad8)
+
 -----
 
 ## Core Features
