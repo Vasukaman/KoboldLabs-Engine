@@ -8,6 +8,8 @@
 [ITCH.IO](https://vasuka.itch.io/koboldlabs-engine)
 
 An OpenGL-based 3D game engine featuring a custom physics system, an object-action architecture, and Lua scripting. Developed as a final project for my studies at **Fanshawe College**.
+![Kobold_Labs_Game_Engine_Showcase (2)](https://github.com/user-attachments/assets/e8237784-b8bf-4447-a40f-391c71958262)
+
 
 -----
 
@@ -32,12 +34,17 @@ The project's core is its **Object-Action architecture**, a flexible system simi
 
   * **Physically-Based Rendering (PBR)**: Implements an industry-standard PBR shading model for realistic materials, supporting ambient occlusion, roughness, metalness, and normal maps.
   * **Shell Texturing**: An efficient technique for rendering dense, dynamic grass with layered shells, creating depth and motion with minimal performance overhead.
+    ![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/a6b042a1-1815-41e7-b71a-197c62c2d670)
+
   * **GPU-Instanced Particles**: A high-performance particle system that updates the GPU buffer directly, allowing for thousands of dynamic particles with different behaviors and settings.
+![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/9ac91d60-6860-4c07-b26a-61ee23154808)
+![Kobold_Labs_Game_Engine_Showcase (1)](https://github.com/user-attachments/assets/f2ba1a12-365a-4134-ae5a-a381a14fe9af)
 
 ### Physics System
 
   * **Hybrid Collision Detection**: A custom physics engine that uses **AABB** for efficient broad-phase filtering and precise **mesh-based collision** for narrow-phase resolution. This optimizes performance while ensuring accurate physical interactions.
   * **Deformable Soft-Body Physics**: A custom soft-body simulation using Verlet integration. It supports real-time interaction between soft bodies and rigid colliders, enabling realistic elasticity and deformation.
+![Kobold_Labs_Game_Engine_Showcase (4)](https://github.com/user-attachments/assets/cec395d1-2fef-437a-9980-20b80eed8486)
 
 ### Architecture & Scripting
 
