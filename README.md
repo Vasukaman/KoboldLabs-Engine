@@ -8,6 +8,7 @@
 [ITCH.IO](https://vasuka.itch.io/koboldlabs-engine)
 
 An OpenGL-based 3D game engine featuring a custom physics system, an object-action architecture, and Lua scripting. Developed as a final project for my studies at **Fanshawe College**.
+
 ![Kobold_Labs_Game_Engine_Showcase (2)](https://github.com/user-attachments/assets/e8237784-b8bf-4447-a40f-391c71958262)
 
 
@@ -20,10 +21,6 @@ KoboldLabs Engine is a 3D game engine built from the ground up in C++ and OpenGL
 The project's core is its **Object-Action architecture**, a flexible system similar to component-based designs that allows for rapid development and extension. It's built to be robust, easy to use, and a powerful tool for creating interactive 3D experiences.
 <img width="1920" height="973" alt="image" src="https://github.com/user-attachments/assets/88344031-0817-4624-afb4-a78774e32b76" />
 
-![PBR WORKING!!!](https://github.com/user-attachments/assets/18bc0667-276f-403c-be01-bc513e0cc015)
-
-![Grass Shells Move indep long small](https://github.com/user-attachments/assets/097aa5e0-fdbe-42a4-813a-a61c9ecb9ad8)
-
 -----
 
 ## Core Features
@@ -34,9 +31,10 @@ The project's core is its **Object-Action architecture**, a flexible system simi
 
   * **Physically-Based Rendering (PBR)**: Implements an industry-standard PBR shading model for realistic materials, supporting ambient occlusion, roughness, metalness, and normal maps.
   * **Shell Texturing**: An efficient technique for rendering dense, dynamic grass with layered shells, creating depth and motion with minimal performance overhead.
-    ![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/a6b042a1-1815-41e7-b71a-197c62c2d670)
+  ![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/a6b042a1-1815-41e7-b71a-197c62c2d670)
 
   * **GPU-Instanced Particles**: A high-performance particle system that updates the GPU buffer directly, allowing for thousands of dynamic particles with different behaviors and settings.
+
 ![Kobold_Labs_Game_Engine_Showcase](https://github.com/user-attachments/assets/9ac91d60-6860-4c07-b26a-61ee23154808)
 ![Kobold_Labs_Game_Engine_Showcase (1)](https://github.com/user-attachments/assets/f2ba1a12-365a-4134-ae5a-a381a14fe9af)
 
